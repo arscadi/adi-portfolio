@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aditya Singh Chauhan | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Aditya Singh Chauhan - Java, Python, C++, Front-end & Back-end Developer, Data Scientist" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <div class="logo-circle">A</div>
+        <div class="logo-text">
+          <span class="logo-name">Aditya Singh Chauhan</span>
+          <span class="logo-role">Developer & Data Enthusiast</span>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#personal" class="nav-link">Personal Info</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+        </ul>
+        <button class="nav-btn" onclick="document.getElementById('personal').scrollIntoView({behavior:'smooth'})">
+          Contact
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+      </nav>
+    </div>
+
+    <div class="nav-mobile" id="navMobile">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#personal" class="nav-link">Personal Info</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <button class="nav-btn mobile-btn" onclick="document.getElementById('personal').scrollIntoView({behavior:'smooth'})">
+        Contact
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / HOME -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="hero-pill">Modern • Colorful • Developer Portfolio</p>
+          <h1 class="hero-title">
+            Hi, I'm <span>Aditya Singh Chauhan</span>
+          </h1>
+          <p class="hero-subtitle">
+            Java, Python & C++ enthusiast • Front-end & Back-end developer • Aspiring Data Scientist
+            who loves building clean, interactive, and meaningful digital experiences.
+          </p>
+
+          <div class="hero-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+            <span class="tag">Front-end Dev</span>
+            <span class="tag">Back-end Dev</span>
+            <span class="tag">Data Science</span>
+          </div>
+
+          <div class="hero-actions">
+            <button class="btn-primary" onclick="document.getElementById('skills').scrollIntoView({behavior:'smooth'})">
+              View my skills
+            </button>
+            <button class="btn-outline" onclick="document.getElementById('personal').scrollIntoView({behavior:'smooth'})">
+              Personal info
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="hero-avatar">A</div>
+            <h2 class="hero-name">Aditya Singh Chauhan</h2>
+            <p class="hero-role">Developer & Data Science Learner</p>
+            <div class="hero-line"></div>
+            <p class="hero-desc">
+              Passionate about combining programming, problem solving, and data to
+              build smart applications and services.
+            </p>
+            <div class="hero-mini-grid">
+              <div class="mini-item">
+                <span class="mini-label">Primary Stack</span>
+                <span class="mini-value">Java • Python • C++</span>
+              </div>
+              <div class="mini-item">
+                <span class="mini-label">Focus Areas</span>
+                <span class="mini-value">Full-stack & Data</span>
+              </div>
+            </div>
+            <div class="hero-links">
+              <a href="mailto:arsc.aditya@gmail.com">✉ Email</a>
+              <a href="https://www.linkedin.com/in/aditya-singh-4629b127a" target="_blank" rel="noreferrer">in LinkedIn</a>
+              <a href="https://github.com/arscadi" target="_blank" rel="noreferrer">◆ GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONAL INFO -->
+    <section id="personal" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Personal Info</p>
+          <h2 class="section-title">About Me & Contact Details</h2>
+          <p class="section-subtitle">
+            Here’s a quick overview of who I am and how you can reach me.
+          </p>
+        </div>
+
+        <div class="personal-grid">
+          <div class="card">
+            <h3 class="card-title">Who I am</h3>
+            <p class="card-text">
+              I’m Aditya, a developer who enjoys working across the stack —
+              from front-end interfaces to back-end logic — and exploring how
+              data can be used to make smarter decisions. I enjoy learning new
+              technologies, writing clean code, and turning ideas into working
+              projects.
+            </p>
+            <p class="card-text">
+              My interests include <strong>Java, Python, C++, web development, and data science</strong>.
+              I like experimenting with small projects, improving my coding style,
+              and understanding real-world problem solving.
+            </p>
+          </div>
+
+          <div class="card personal-details">
+            <h3 class="card-title">Contact & Links</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-label">Name</span>
+                <span class="info-value">Aditya Singh Chauhan</span>
+              </li>
+              <li>
+                <span class="info-label">Email</span>
+                <span class="info-value">
+                  <a href="mailto:arsc.aditya@gmail.com">arsc.aditya@gmail.com</a>
+                </span>
+              </li>
+              <li>
+                <span class="info-label">Mobile</span>
+                <span class="info-value">
+                  <a href="tel:+919460005012">+91 94600 05012</a>
+                </span>
+              </li>
+              <li>
+                <span class="info-label">LinkedIn</span>
+                <span class="info-value">
+                  <a href="https://www.linkedin.com/in/aditya-singh-4629b127a" target="_blank" rel="noreferrer">
+                    linkedin.com/in/aditya-singh-4629b127a
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span class="info-label">GitHub</span>
+                <span class="info-value">
+                  <a href="https://github.com/arscadi" target="_blank" rel="noreferrer">
+                    github.com/arscadi
+                  </a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Skills</p>
+          <h2 class="section-title">What I Work With</h2>
+          <p class="section-subtitle">
+            These are the core areas I’m focusing on right now: programming languages,
+            full-stack development, and data science.
+          </p>
+        </div>
+
+        <div class="skills-layout">
+          <!-- Skill Cards -->
+          <div class="skills-grid">
+            <div class="card skill-card">
+              <h3 class="card-title">Programming Languages</h3>
+              <p class="card-text">
+                Strong interest in object-oriented and high-level languages,
+                using them to build logic-heavy and data-driven applications.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Java</span>
+                <span class="pill">Python</span>
+                <span class="pill">C++</span>
+              </div>
+            </div>
+
+            <div class="card skill-card">
+              <h3 class="card-title">Front-end Developer</h3>
+              <p class="card-text">
+                Building responsive, user-friendly interfaces with attention
+                to layout, typography, and colors.
+              </p>
+              <div class="pill-row">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">JavaScript</span>
+                <span class="pill">Responsive UI</span>
+              </div>
+            </div>
+
+            <div class="card skill-card">
+              <h3 class="card-title">Back-end Developer</h3>
+              <p class="card-text">
+                Interested in APIs, server-side logic, and structuring data so
+                applications stay fast and reliable.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Java / Python back-end</span>
+                <span class="pill">REST APIs</span>
+                <span class="pill">Databases (basic)</span>
+              </div>
+            </div>
+
+            <div class="card skill-card">
+              <h3 class="card-title">Data Scientist (in progress)</h3>
+              <p class="card-text">
+                Exploring how data, statistics, and code come together to find
+                patterns and build insights.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Python for data</span>
+                <span class="pill">Pandas (learning)</span>
+                <span class="pill">Visualization</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Bars -->
+          <div class="card skill-bars-card">
+            <h3 class="card-title">Skill Levels (approximate)</h3>
+            <p class="card-text">
+              Just a rough idea of where I currently stand. I’m constantly learning
+              and improving these as I build more projects.
+            </p>
+
+            <div class="skill-bar" data-skill="Java" data-level="75">
+              <div class="skill-bar-top">
+                <span>Java</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar" data-skill="Python" data-level="80">
+              <div class="skill-bar-top">
+                <span>Python</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar" data-skill="C++" data-level="70">
+              <div class="skill-bar-top">
+                <span>C++</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar" data-skill="Front-end" data-level="75">
+              <div class="skill-bar-top">
+                <span>Front-end Development</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar" data-skill="Back-end" data-level="65">
+              <div class="skill-bar-top">
+                <span>Back-end Development</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar" data-skill="Data Science" data-level="60">
+              <div class="skill-bar-top">
+                <span>Data Science</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Aditya Singh Chauhan</span>
+      <span class="footer-note">Java • Python • C++ • Front-end • Back-end • Data Science</span>
+    </div>
+  </footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+</body>
+</html>
